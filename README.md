@@ -78,6 +78,21 @@ def preprocess_text(text):
 df['Cleaned_Review'] = df['Review Text'].apply(preprocess_text)
 ```
 ---
+```python
+# Function to categorize sentiment
+
+def categorize_sentiment(rating):
+    if rating >= 4:
+        return 'Positive'
+    elif rating == 3:
+        return 'Neutral'
+    else:
+        return 'Negative'
+
+# Apply function to create sentiment labels
+df['Sentiment'] = df['Rating'].apply(categorize_sentiment)
+```
+
 
 ## Exploratory Data Analysis (EDA)
 Exploratory Data Analysis was performed to understand the dataset better. Key visualizations include:
@@ -167,5 +182,47 @@ print(classification_report(y_test, y_pred_combined))
 ```
 
 ![Confusion Matrix](https://github.com/Uzo-Hill/Sentiment-Analysis-of-Women-s-E-Commerce-Clothing-Reviews-Using-NLP/blob/main/ModelEvaluation.png)
+
 ---
+
+
+## Key Insights:
+The sentiment analysis model achieved an accuracy of **82.2%**. Key insights from the analysis include:
+
+
+
+The sentiment analysis model achieved the following distribution of predicted sentiments:
+- **86.3%** of reviews were classified as **Positive**.
+- **7.5%** of reviews were classified as **Negative**.
+- **6.2%** of reviews were classified as **Neutral**.
+
+- Positive reviews dominated the dataset, indicating overall customer satisfaction.
+- Younger customers (21-30) were more likely to leave positive reviews, while older customers (51-60) were more critical.Potentially indicating different expectations or shopping behaviors across demographics.
+- The Dresses department received the most positive feedback, while the Bottoms department had more neutral and negative reviews, suggesting potential areas for improvement.
+
+---
+
+### Conclusion:
+This project successfully applied NLP techniques to analyze sentiment in women's e-commerce clothing reviews. The Logistic Regression model achieved an accuracy of 82.2%, with strong performance for positive reviews but room for improvement in classifying neutral and negative reviews. Key insights included the dominance of positive reviews, variations in sentiment across age groups, and differences in sentiment by department.
+
+---
+
+### Recommendations
+Based on the analysis, the following recommendations are proposed:
+
+- There's need to improve product quality by addressing issues highlighted in negative reviews, especially in the Bottoms department.
+
+- Leverage positive review vocabulary to reinforce successful product attributes in marketing materials.
+
+- Use insights from age group analysis to tailor marketing strategies for different demographics.
+
+- Implementation of sentiment monitoring by setting up alerts for significant increases in negative sentiment to enable rapid response to emerging issues.
+
+- Further optimize NLP models using deep learning techniques (e.g., LSTMs, BERT) for better contextual understanding.
+
+---
+
+# Thank you for checking out this project! 
+
+
 
