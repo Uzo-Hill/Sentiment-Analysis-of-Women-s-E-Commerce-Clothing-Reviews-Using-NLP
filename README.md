@@ -1,4 +1,8 @@
 # Sentiment-Analysis-of-Women-s-E-Commerce-Clothing-Reviews-Using-NLP
+---
+
+![Project Banner](https://github.com/Uzo-Hill/Sentiment-Analysis-of-Women-s-E-Commerce-Clothing-Reviews-Using-NLP/blob/main/banner.webp) 
+
 This project analyzes customer sentiment in women's e-commerce clothing reviews using Natural Language Processing (NLP). The goal is to classify customer reviews as positive, negative, or neutral to help businesses understand customer satisfaction, identify areas for improvement, and enhance decision-making processes.
 
 
@@ -15,6 +19,10 @@ The dataset used contains customer reviews, ratings, and feedback counts, which 
 ## Dataset
 The dataset used in this project is sourced from **Kaggle**:  
 [Women's E-commerce Clothing Reviews Dataset](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
+
+### Raw Dataset
+![Raw Dataset](https://github.com/Uzo-Hill/Sentiment-Analysis-of-Women-s-E-Commerce-Clothing-Reviews-Using-NLP/blob/main/Dataset.PNG) 
+
 
 ### Dataset Description
 The dataset contains the following columns:
