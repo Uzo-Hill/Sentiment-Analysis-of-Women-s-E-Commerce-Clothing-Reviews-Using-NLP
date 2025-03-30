@@ -206,7 +206,7 @@ The sentiment analysis model achieved the following distribution of predicted se
 
 - Positive reviews dominated the dataset, indicating overall customer satisfaction.
 - Younger customers (21-30) were more likely to leave positive reviews, while older customers (51-60) were more critical.Potentially indicating different expectations or shopping behaviors across demographics.
-- The Dresses department received the most positive feedback, while the Bottoms department had more neutral and negative reviews, suggesting potential areas for improvement.
+- The top department received the most positive feedback, while the Bottoms department had more neutral and negative reviews, suggesting potential areas for improvement.
 
 ---
 
