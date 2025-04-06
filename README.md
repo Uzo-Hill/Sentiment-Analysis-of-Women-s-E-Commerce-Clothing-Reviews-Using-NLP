@@ -17,7 +17,7 @@ The dataset used contains customer reviews, ratings, and feedback counts, which 
 ---
 
 ## Dataset
-The dataset used in this project is sourced from **Kaggle**:  
+The dataset used in this project was sourced from **Kaggle**:  
 [Women's E-commerce Clothing Reviews Dataset](https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews)
 
 ### Raw Dataset
